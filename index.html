@@ -137,7 +137,7 @@
       </section>
 
       <!--Fresh tea section-->
-      <section class="container mx-auto  flex gap-12 flex-col lg:flex-row">
+      <section class="container mx-auto  flex gap-12  flex-col lg:flex-row">
         <div class="grid gap-6 grid-cols-1 lg:grid-cols-2 flex-1">
           <div
             class="rounded-xl bg-gradient-to-r from-[#F00] to-[#FF8938] opacity-[0.1] h-36"
@@ -179,11 +179,11 @@
       </section>
       <!--Super client section-->
       <section
-        class="container mx-auto my-24 flex flex-col gap-10 justify-center bg-gradient-to-r from-[#FF8938] to-[#F00] px-16 py-24 lg:flex-row"
+        class="container mx-auto my-24  flex flex-col gap-10 justify-center bg-gradient-to-r from-[#FF8938] to-[#F00] px-16 py-24 rounded-lg lg:flex-row"
       >
         <div class="flex items-center pr-36">
           <div class="space-y-6">
-            <h3 class="text-5xl font-extrabold text-yellow-50">
+            <h3 class=" text-3xl lg:text-5xl font-extrabold text-yellow-50">
               Meet Our Super Clients
             </h3>
             <p class="text-sm text-yellow-50">
@@ -255,18 +255,57 @@
         </div>
       </section>
       <!--news section-->
-      <section></section>
+      <section class="container mx-auto">
+        <h3 class="font-extrabold text-3xl mb-5 text-center">News & Events</h3>
+        <p class="mx-auto pb-7 lg:max-w-4xl text-[#777]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+<div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+    <!--news card1-->
+<div class="card card-compact  bg-base-100 px-5">
+    <figure><img src="images/news-1.png" alt=""/></figure>
+    <div class="card-body">
+      <h2 class="text-xl font-bold">Collecting 8 points for discount</h2>
+      <p class=" text-[#777]">There are many variations of passages of Lorem Ipsum available.</p>
+      <div class="card-actions ">
+        <button class="btn bg-white border-none pl-0">Learn More</button>
+      </div>
+    </div>
+  </div>
+  <!--news card3-->
+<div class="card card-compact  bg-base-100 px-5">
+    <figure><img src="images/news-2.png" alt=""/></figure>
+    <div class="card-body">
+      <h2 class="text-xl font-bold">Collecting 8 points for discount</h2>
+      <p class=" text-[#777]">There are many variations of passages of Lorem Ipsum available.</p>
+      <div class="card-actions ">
+        <button class="btn bg-white border-none pl-0">Learn More</button>
+      </div>
+    </div>
+  </div>
+  <!--news card3-->
+<div class="card card-compact  bg-base-100 px-5">
+    <figure><img src="images/news-3.png" alt=""/></figure>
+    <div class="card-body">
+      <h2 class="text-xl font-bold">Collecting 8 points for discount</h2>
+      <p class=" text-[#777]">There are many variations of passages of Lorem Ipsum available.</p>
+      <div class="card-actions ">
+        <button class="btn bg-white border-none pl-0">Learn More</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </section>
     </main>
     <!--footer-->
-    <footer class=" px-4 lg:p-36 py-12 bg-base-200 text-base-content">
-        <div class="flex justify-between my-20">
+    <footer class=" px-4 lg:p-36 py-12 bg-gradient-to-r from-[#ff00001a] to-[#ff89381a] text-base-content ">
+        <div class=" px-20 flex justify-between my-20 gap-12">
             <img src="images/cup.png" alt="">
-            <p>
-                <span>Ready to get started</span>
+            <p class="space-x-4 lg:mr-40">
+                <span>Ready to get started?</span>
                 <button class="btn bg-gradient-to-r from-[#FF8938] to-[#F00] text-yellow-50">Get Started</button>
             </p>
         </div>
-      <div class="footer ">
+      <div class="footer px-14 ">
         <div>
           <header class="footer-title">Services</header>
           <a class="link link-hover">Branding</a>
@@ -288,7 +327,7 @@
           <a class="link link-hover">Cookie policy</a>
         </div>
         <div>
-          <header class="footer-title"> Subscribe to our <br> newsletter</header>
+          <header class="footer-title "> Subscribe to our <br> newsletter</header>
           <fieldset class="form-control w-80">
             <label class="label">
               
@@ -297,16 +336,24 @@
               <input
                 type="email"
                 placeholder="Email Address"
-                class=" py-4 bg-transparent border-b-2 border-gray-500 outline-none"/>
+                class=" pb-4 bg-transparent border-b-2 border-gray-500 outline-none"/>
               <button class="btn bg-gradient-to-r from-[#FF8938] to-[#F00] text-yellow-50 rounded-full">
                 <i class="fa-solid fa-chevron-right"></i>
               </button>
             </div>
           </fieldset>
         </div>
+        
+        
       </div>
+      <!--footer icon-->
+      <div class=" flex  gap-4 mt-5 px-12 lg:pl-[700px]">
+        <div><img src="images/Frame (2).svg" alt=""></div>
+        <div><img src="images/Frame (3).svg" alt=""></div>
+        <div><img src="images/Frame (4).svg" alt=""></div>
+                </div>
       <div>
-        <p class="text-center mt-10">Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+        <p class="text-center mt-10 px-5 lg:mt-48">Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
       </div>
     </footer>
   </body>
